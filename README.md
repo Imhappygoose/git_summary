@@ -20,4 +20,12 @@ Used to make commit - add changes from working directory to repository. -m lets 
 5. '''
 git push
 '''
-Used to push local repository to online one on github. Be sure to add ''' origin master ''' when making first push. Master branch can be changed for Main
+Used to push local repository to online one on github. Be sure to add ''' -u origin master ''' when making first push. Master branch can be changed for Main
+6. '''
+git remote add origin (URL)
+'''
+Used to make a link between local and online repositories
+7 '''
+git remote -v
+'''
+Used to check if link has been completed
